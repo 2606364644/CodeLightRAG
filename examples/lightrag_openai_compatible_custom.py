@@ -5,6 +5,8 @@ from lightrag.llm.openai import openai_complete_if_cache, openai_embed
 from lightrag.utils import EmbeddingFunc
 import numpy as np
 from lightrag.kg.shared_storage import initialize_pipeline_status
+import chardet
+import aiofiles
 
 WORKING_DIR = "./book"
 
@@ -34,7 +36,7 @@ async def embedding_func(texts: list[str]) -> np.ndarray:
     return await openai_embed(
         texts,
         # model="solar-embedding-1-large-query",
-        model="qwen-turbo-2024-09-19",
+        model="text-embedding-v1",
         api_key=os.getenv("DASHSCOPE_API_KEY"),
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
@@ -112,8 +114,7 @@ async def read_file(file_path: str) -> str:
     Returns:
         str | None: 文件内容，如果读取失败则返回None
     """
-    import chardet
-    import aiofiles
+
     
     # 检测文件编码
     async with aiofiles.open(file_path, 'rb') as f:
@@ -173,38 +174,45 @@ async def main():
         rag = await initialize_rag()
         
         # 使用生成器读取文件并插入
+        # async for content in read_files_from_directory(WORKING_DIR, '.txt'):
+        #     await rag.ainsert(content)
         async for content in read_files_from_directory(WORKING_DIR, '.txt'):
-            await rag.ainsert(content)
+            content = content.replace("\n", "")
+            await rag.insert_custom_chunks(full_text=content, text_chunks=[content], doc_id=1)
 
-        # with open("./book.txt", "r", encoding="utf-8") as f:
+        # with open("./book/book.txt", "r", encoding="utf-8") as f:
         #     await rag.ainsert(f.read())
 
         # Perform naive search
+        print("naive:")
         print(
             await rag.aquery(
-                "What are the top themes in this story?", param=QueryParam(mode="naive")
+                "糖果森林怎么了？", param=QueryParam(mode="naive")
             )
         )
 
         # Perform local search
+        print("local:")
         print(
             await rag.aquery(
-                "What are the top themes in this story?", param=QueryParam(mode="local")
+                "糖果森林怎么了？", param=QueryParam(mode="local")
             )
         )
 
         # Perform global search
+        print("global:")
         print(
             await rag.aquery(
-                "What are the top themes in this story?",
+                "糖果森林怎么了？",
                 param=QueryParam(mode="global"),
             )
         )
 
         # Perform hybrid search
+        print("hybrid:")
         print(
             await rag.aquery(
-                "What are the top themes in this story?",
+                "糖果森林怎么了？",
                 param=QueryParam(mode="hybrid"),
             )
         )

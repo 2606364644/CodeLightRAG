@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="糖糖">
+      <data key="d0">person</data>
+      <data key="d1">糖糖是一只住在糖果森林里的小兔子，以其柔软的棉花糖般的毛发和晶莹剔透的蓝莓果冻般的眼睛而著称。</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="彩彩">
+      <data key="d0">person</data>
+      <data key="d1">彩彩是一只会说话的彩虹蝴蝶，是糖糖最好的朋友。</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="糖果森林">
+      <data key="d0">geo</data>
+      <data key="d1">糖果森林是一个充满糖果和奇迹的地方，居住着各种奇特生物。</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="巧克力河">
+      <data key="d0">geo</data>
+      <data key="d1">巧克力河是糖果森林中的一条河流，名字来源于其巧克力质地的水流。</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="饼干山">
+      <data key="d0">geo</data>
+      <data key="d1">饼干山是糖果森林中的一个地标，由饼干构成，形状独特。</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="水晶洞穴">
+      <data key="d0">geo</data>
+      <data key="d1">水晶洞穴位于糖果森林深处，内部藏有一颗被黑暗魔法污染的水晶糖。</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="小老鼠">
+      <data key="d0">person</data>
+      <data key="d1">小老鼠因嫉妒而对糖果森林施加了黑暗魔法，后被糖糖和彩彩的善良与真诚所感动，成为新的朋友。</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="&lt;entity_name&gt;">
+      <data key="d0">&lt;entity_type&gt;</data>
+      <data key="d1">&lt;entity_description&gt;</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="Sugar">
+      <data key="d0">person</data>
+      <data key="d1">Sugar is a little rabbit living in the Candy Forest with cotton candy-like fur and crystal clear blueberry jelly eyes.</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="Rainbow">
+      <data key="d0">person</data>
+      <data key="d1">Rainbow is a talking rainbow butterfly and Sugar's best friend.</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="Candy Forest">
+      <data key="d0">geo</data>
+      <data key="d1">Candy Forest is a magical place where various sweet creatures live, including Sugar and Rainbow.</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="Chocolate River">
+      <data key="d0">geo</data>
+      <data key="d1">Chocolate River is a river within the Candy Forest known for its chocolate-like water.</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="Cookie Mountain">
+      <data key="d0">geo</data>
+      <data key="d1">Cookie Mountain is a mountain within the Candy Forest made of cookies.</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="Crystal Cave">
+      <data key="d0">geo</data>
+      <data key="d1">Crystal Cave is a cave deep within the Candy Forest containing a dark magic-infested crystal candy.</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <node id="Little Mouse">
+      <data key="d0">person</data>
+      <data key="d1">A jealous little mouse that casts a spell causing the loss of sweetness in the Candy Forest.</data>
+      <data key="d2">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </node>
+    <edge source="糖糖" target="彩彩">
+      <data key="d3">10.0</data>
+      <data key="d4">糖糖和彩彩是最好的朋友，它们一起探索糖果森林并解决森林的问题。</data>
+      <data key="d5">友谊，冒险</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+    <edge source="糖糖" target="糖果森林">
+      <data key="d3">8.0</data>
+      <data key="d4">糖糖生活在糖果森林中，与森林中的其他生物和谐共处。</data>
+      <data key="d5">居住地，环境</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+    <edge source="糖糖" target="小老鼠">
+      <data key="d3">9.0</data>
+      <data key="d4">糖糖和彩彩用善良和真诚感化了小老鼠，帮助它认识到分享和友爱的重要性。</data>
+      <data key="d5">友谊，转变</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+    <edge source="彩彩" target="糖果森林">
+      <data key="d3">8.0</data>
+      <data key="d4">彩彩也生活在糖果森林中，并帮助糖糖解决森林的问题。</data>
+      <data key="d5">居住地，环境</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+    <edge source="彩彩" target="小老鼠">
+      <data key="d3">9.0</data>
+      <data key="d4">彩彩帮助糖糖一起感化小老鼠，使它成为了新的朋友。</data>
+      <data key="d5">友谊，转变</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+    <edge source="糖果森林" target="巧克力河">
+      <data key="d3">7.0</data>
+      <data key="d4">糖果森林中有一条名为巧克力河的河流，是森林的一部分。</data>
+      <data key="d5">地理特征，环境</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+    <edge source="糖果森林" target="饼干山">
+      <data key="d3">7.0</data>
+      <data key="d4">糖果森林中有一座名为饼干山的山脉，是森林的一部分。</data>
+      <data key="d5">地理特征，环境</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+    <edge source="糖果森林" target="水晶洞穴">
+      <data key="d3">8.0</data>
+      <data key="d4">糖果森林深处有一个水晶洞穴，里面藏着被黑暗魔法污染的水晶糖。</data>
+      <data key="d5">地理特征，事件</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+    <edge source="水晶洞穴" target="小老鼠">
+      <data key="d3">8.0</data>
+      <data key="d4">水晶洞穴内的一颗被黑暗魔法污染的水晶糖是由嫉妒的小老鼠施法造成的。</data>
+      <data key="d5">魔法，事件</data>
+      <data key="d6">chunk-9c19fec4418a292a65ff55c1e42d1131</data>
+    </edge>
+  </graph>
+</graphml>
