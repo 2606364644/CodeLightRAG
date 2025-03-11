@@ -53,6 +53,24 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "糖果森林怎么了？"
+    },
+    "5afd696dd8f50f82fd1fba204b96cb7d": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u6545\\u4e8b\\u80cc\\u666f\", \"\\u865a\\u6784\\u4e16\\u754c\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\", \"\\u68ee\\u6797\", \"\\u89d2\\u8272\", \"\\u5192\\u9669\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    },
+    "d81c3ec6607713aa97e31f56abf68957": {
+      "return": "糖果森林是一个充满糖果和奇迹的地方，居住着各种奇特生物。它是一个神奇的环境，其中包含许多有趣的地标和角色。例如，这里有由饼干构成的饼干山以及一条名为巧克力河的河流。此外，糖果森林深处还隐藏着一个水晶洞穴，洞穴中有一颗被黑暗魔法污染的水晶糖。\n\n在这个奇妙的地方，住着一些特别的角色，如糖糖——一只拥有棉花糖般柔软毛发和蓝莓果冻般眼睛的小兔子。糖糖和它的最好朋友，会说话的彩虹蝴蝶彩彩，共同守护着糖果森林。她们一起探索森林，并且帮助解决各种问题。\n\n糖果森林不仅是一个地理上的存在，也是友谊与善良的象征。通过糖糖和彩彩的努力，曾经带来黑暗魔法的小老鼠也被感化，成为了森林中的新朋友。这个故事展示了真诚友谊的力量，以及分享和友爱的重要性。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
     }
   },
   "global": {
@@ -109,6 +127,24 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "糖果森林怎么了？"
+    },
+    "43d2156a6d2c74d19972c1fbdfa8d103": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u6545\\u4e8b\\u80cc\\u666f\", \"\\u865a\\u6784\\u4e16\\u754c\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\", \"\\u68ee\\u6797\", \"\\u89d2\\u8272\", \"\\u63a2\\u9669\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    },
+    "67b337e1797c3880bc6c2dd0f5321b21": {
+      "return": "糖果森林是一个充满糖果和奇迹的地方，居住着各种奇特生物。这个地方以其独特的自然景观和友好的居民而闻名。在糖果森林中，你可以找到由饼干构成的饼干山、流淌着巧克力质地水流的巧克力河以及隐藏着被黑暗魔法污染的水晶糖的水晶洞穴等奇妙的地理特征。\n\n此外，糖果森林还生活着一些特别的角色，比如糖糖——一只拥有柔软棉花糖般毛发和晶莹剔透蓝莓果冻般眼睛的小兔子；彩彩——一只会说话的彩虹蝴蝶，是糖糖最好的朋友；还有小老鼠——最初因为嫉妒而施加了黑暗魔法，后来被糖糖和彩彩的善良与真诚所感动，最终成为了新的朋友。这些角色共同维护着糖果森林的和平与甜蜜。\n\n总之，糖果森林不仅是一个美丽的自然景观，也是一个充满友情和正能量的奇妙世界。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
     }
   },
   "hybrid": {
@@ -165,6 +201,24 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "糖果森林怎么了？"
+    },
+    "3360337a2d801c18b539f025cdf241a5": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u6545\\u4e8b\\u80cc\\u666f\", \"\\u865a\\u6784\\u4e16\\u754c\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\", \"\\u68ee\\u6797\", \"\\u89d2\\u8272\", \"\\u5192\\u9669\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    },
+    "0ce8b3dc2bba07a8b8e89d13ca8746ea": {
+      "return": "糖果森林（Candy Forest）是一个充满糖果和奇迹的地方，居住着各种奇特生物。在这个神奇的地方，糖果不仅是食物，而且构成了整个环境的一部分。例如，糖果森林中有由饼干构成的独特形状的饼干山（Cookie Mountain），以及一条名字来源于其巧克力质地水流的巧克力河（Chocolate River）。森林深处还隐藏着一个名为水晶洞穴（Crystal Cave）的地方，里面藏有一颗被黑暗魔法污染的水晶糖。\n\n糖果森林中住着一位特别的朋友——糖糖（Sugar），它是一只小兔子，以其柔软的棉花糖般的毛发和晶莹剔透的蓝莓果冻般的眼睛而著称。糖糖最好的朋友是一只会说话的彩虹蝴蝶——彩彩（Rainbow），它们共同探索糖果森林并解决森林的问题。此外，曾经嫉妒的、施加黑暗魔法的小老鼠后来被糖糖和彩彩的善良与真诚所感动，成为了新的朋友。\n\n总的来说，糖果森林是一个美丽而神奇的地方，充满了甜蜜和奇迹。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
     }
   },
   "default": {
@@ -205,6 +259,15 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "糖果森林怎么了？"
+    },
+    "e2f7eceacbd973210aec334b91cad518": {
+      "return": "糖果森林是一个充满奇幻色彩的地方，在那里有着各种以食物为主题的自然景观。在这片森林中，糖果不再是普通的食品，而是构成了整个环境的一部分。例如，森林中的河流是由巧克力构成的，而山峦则是由饼干堆叠而成的。森林里的生物也各具特色，比如主人公糖糖是一只毛发像棉花糖一样柔软的小兔子，而它的朋友彩虹蝴蝶彩彩则会说话。糖果森林象征着一个充满甜蜜与欢乐的世界，但同时也会遇到一些需要通过友谊和善良来解决的问题。在这个故事中，糖果森林曾经因为一颗被黑暗魔法污染的水晶糖而失去甜味，但在主人公们的努力下，最终又恢复了往日的甜蜜与和谐。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
     }
   }
 }

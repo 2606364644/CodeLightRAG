@@ -66,7 +66,6 @@ async def initialize_rag():
     print(f"Detected embedding dimension: {embedding_dimension}")
 
     rag = LightRAG(
-        working_dir=WORKING_DIR,
         llm_model_func=llm_model_func,
         embedding_func=EmbeddingFunc(
             embedding_dim=embedding_dimension,
@@ -169,25 +168,31 @@ async def read_files_from_directory(directory: str, file_extension: str = '.txt'
 
 
 async def main():
+    
+    
     try:
         # Initialize RAG instance
         rag = await initialize_rag()
         
         # 使用生成器读取文件并插入
         # async for content in read_files_from_directory(WORKING_DIR, '.txt'):
-        #     await rag.ainsert(content)
-        async for content in read_files_from_directory(WORKING_DIR, '.txt'):
-            content = content.replace("\n", "")
-            await rag.insert_custom_chunks(full_text=content, text_chunks=[content], doc_id=1)
-
-        # with open("./book/book.txt", "r", encoding="utf-8") as f:
-        #     await rag.ainsert(f.read())
-
+        #     content = content.replace("\n", "")
+        #     # insert_custom_chunks 自行分块，但也会自动创建实体
+        #     # 想要手动创建实体，使用 create_entity
+        #     await rag.insert_custom_chunks(full_text=content, text_chunks=[content], doc_id=1)
+        
+        # create_entity 手动创建实体
+        # 不需要前面的insert_custom_chunks了，不需要插入chunk信息
+        entity = await rag.acreate_entity(entity_name="糖果森林", entity_data={
+            "entity_type": "world",
+            "description": "糖果森林是一个虚构的世界，由一群热爱糖果的人组成。",
+        })
+        
         # Perform naive search
         print("naive:")
         print(
             await rag.aquery(
-                "糖果森林怎么了？", param=QueryParam(mode="naive")
+                "糖果森林是什么？", param=QueryParam(mode="naive")
             )
         )
 
@@ -195,7 +200,7 @@ async def main():
         print("local:")
         print(
             await rag.aquery(
-                "糖果森林怎么了？", param=QueryParam(mode="local")
+                "糖果森林是什么？", param=QueryParam(mode="local")
             )
         )
 
@@ -203,7 +208,7 @@ async def main():
         print("global:")
         print(
             await rag.aquery(
-                "糖果森林怎么了？",
+                "糖果森林是什么？",
                 param=QueryParam(mode="global"),
             )
         )
@@ -212,7 +217,7 @@ async def main():
         print("hybrid:")
         print(
             await rag.aquery(
-                "糖果森林怎么了？",
+                "糖果森林是什么？",
                 param=QueryParam(mode="hybrid"),
             )
         )

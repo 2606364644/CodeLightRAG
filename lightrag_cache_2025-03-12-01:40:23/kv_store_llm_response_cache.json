@@ -1,0 +1,22 @@
+{
+  "hybrid": {
+    "3360337a2d801c18b539f025cdf241a5": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u6545\\u4e8b\\u80cc\\u666f\", \"\\u865a\\u6784\\u4e16\\u754c\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\", \"\\u68ee\\u6797\", \"\\u89d2\\u8272\", \"\\u5192\\u9669\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    },
+    "0ce8b3dc2bba07a8b8e89d13ca8746ea": {
+      "return": "糖果森林是一个虚构的世界。这个世界由一群热爱糖果的人组成。它充满了甜蜜和欢乐的元素，尽管在提供的知识库中没有更详细的描述，但可以想象这是一个充满各种糖果构成的奇妙世界。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    }
+  }
+}
