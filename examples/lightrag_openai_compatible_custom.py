@@ -187,6 +187,8 @@ async def main():
             "entity_type": "world",
             "description": "糖果森林是一个虚构的世界，由一群热爱糖果的人组成。",
         })
+        # acreate_relation 手动创建关系
+        relation = await rag.acreate_relation(source_entity=None, target_entity=None, relation_data={})
         
         # Perform naive search
         print("naive:")
