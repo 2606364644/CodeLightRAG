@@ -1,0 +1,273 @@
+{
+  "local": {
+    "3eba15cddc40b8e5f2d5b974042add93": {
+      "return": "{\"high_level_keywords\": [\"Top themes\", \"Story analysis\", \"Narrative elements\"], \"low_level_keywords\": []}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "What are the top themes in this story?"
+    },
+    "a1b83256ae3cad3f137e4d05f1452b2b": {
+      "return": "{\"high_level_keywords\": [\"\\u4e3b\\u8981\\u4e3b\\u9898\", \"\\u6545\\u4e8b\\u4e3b\\u9898\", \"\\u6838\\u5fc3\\u601d\\u60f3\"], \"low_level_keywords\": []}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "这个故事的主要主题是什么？"
+    },
+    "e26d72f6fcfdc4fc15e00ded09612fbc": {
+      "return": "{\"high_level_keywords\": [\"\\u5c0f\\u5154\\u5b50\", \"\\u52a8\\u7269\\u540d\\u79f0\"], \"low_level_keywords\": [\"\\u540d\\u5b57\", \"\\u79f0\\u547c\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "小兔子叫什么？"
+    },
+    "d52cdc04d502f58a80f2d936c5fb5774": {
+      "return": "小兔子的名字叫糖糖。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "小兔子叫什么？"
+    },
+    "40b8cd1ad73a633f3972ef9cb236ea95": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u72b6\\u51b5\", \"\\u53d8\\u5316\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\\u7684\\u6545\\u4e8b\", \"\\u89d2\\u8272\\u72b6\\u6001\", \"\\u73af\\u5883\\u53d8\\u5316\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林怎么了？"
+    },
+    "3a18a8021ef0ad54cc616b90b6c57e61": {
+      "return": "糖果森林曾一度失去了甜味，所有的糖果都变得苦涩难吃。这是因为一只嫉妒的小老鼠施加了黑暗魔法，导致森林中的水晶糖被污染了。但最终，在糖糖和彩彩的帮助下，小老鼠认识到了分享和友爱的重要性，解除了魔法，糖果森林重新恢复了甜味。\n\n总结一下关键点：\n- 糖果森林失去了甜味，变得苦涩。\n- 这是由嫉妒的小老鼠施加的黑暗魔法造成的。\n- 糖糖和彩彩通过他们的善良和真诚感化了小老鼠。\n- 小老鼠解除了魔法，糖果森林恢复了甜味。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林怎么了？"
+    },
+    "5afd696dd8f50f82fd1fba204b96cb7d": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u6545\\u4e8b\\u80cc\\u666f\", \"\\u865a\\u6784\\u4e16\\u754c\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\", \"\\u68ee\\u6797\", \"\\u89d2\\u8272\", \"\\u5192\\u9669\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    },
+    "d81c3ec6607713aa97e31f56abf68957": {
+      "return": "糖果森林是一个充满糖果和奇迹的地方，居住着各种奇特生物。它是一个神奇的环境，其中包含许多有趣的地标和角色。例如，这里有由饼干构成的饼干山以及一条名为巧克力河的河流。此外，糖果森林深处还隐藏着一个水晶洞穴，洞穴中有一颗被黑暗魔法污染的水晶糖。\n\n在这个奇妙的地方，住着一些特别的角色，如糖糖——一只拥有棉花糖般柔软毛发和蓝莓果冻般眼睛的小兔子。糖糖和它的最好朋友，会说话的彩虹蝴蝶彩彩，共同守护着糖果森林。她们一起探索森林，并且帮助解决各种问题。\n\n糖果森林不仅是一个地理上的存在，也是友谊与善良的象征。通过糖糖和彩彩的努力，曾经带来黑暗魔法的小老鼠也被感化，成为了森林中的新朋友。这个故事展示了真诚友谊的力量，以及分享和友爱的重要性。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    }
+  },
+  "global": {
+    "20f25304745f8c690c60c67fa5ed9e87": {
+      "return": "{\"high_level_keywords\": [\"Top themes\", \"Story analysis\", \"Narrative elements\"], \"low_level_keywords\": []}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "What are the top themes in this story?"
+    },
+    "51b66a78b334770875dd99e78a9763e4": {
+      "return": "{\"high_level_keywords\": [\"\\u4e3b\\u8981\\u4e3b\\u9898\", \"\\u6545\\u4e8b\\u4e3b\\u9898\", \"\\u6587\\u5b66\\u5206\\u6790\"], \"low_level_keywords\": []}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "这个故事的主要主题是什么？"
+    },
+    "18fcfd771c0327ffcef5624791f026b2": {
+      "return": "{\"high_level_keywords\": [\"\\u5c0f\\u5154\\u5b50\", \"\\u547d\\u540d\"], \"low_level_keywords\": [\"\\u540d\\u5b57\", \"\\u79f0\\u547c\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "小兔子叫什么？"
+    },
+    "fd632f08dc7165d86803e51bed08bc1f": {
+      "return": "小兔子的名字叫糖糖。糖糖是一只住在糖果森林里的小兔子，以其柔软的棉花糖般的毛发和晶莹剔透的蓝莓果冻般的眼睛而著称。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "小兔子叫什么？"
+    },
+    "047852ca78cd296f1ec1d4ad2962fc49": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u72b6\\u51b5\", \"\\u53d8\\u5316\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\\u7684\\u72b6\\u6001\", \"\\u6700\\u8fd1\\u7684\\u53d8\\u5316\", \"\\u95ee\\u9898\", \"\\u539f\\u56e0\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林怎么了？"
+    },
+    "6e8a2abb89082df2aedfee827581b02b": {
+      "return": "糖果森林曾经遇到了一些问题，但最终得到了解决。事情是这样的：\n\n起初，糖果森林突然失去了甜味，所有的糖果都变得苦涩难吃。糖糖和它的朋友彩彩决定去调查原因。它们穿过巧克力河，翻过饼干山，最后找到了森林深处的水晶洞穴。\n\n在洞穴里，它们发现了一颗被黑暗魔法污染的水晶糖。这颗水晶糖是由一只嫉妒的小老鼠施加的魔法造成的。小老鼠因为嫉妒而对糖果森林施加了黑暗魔法，因为它认为大家只喜欢糖果，而不喜欢它自己。\n\n幸运的是，糖糖和彩彩用它们的善良和真诚感化了小老鼠。它们告诉小老鼠，真正的友谊比糖果更甜美。小老鼠被糖糖和彩彩的真诚所感动，最终解除了魔法，糖果森林也因此重新恢复了甜味。\n\n从此之后，小老鼠成为了糖果森林的一员，它学会了分享和友爱。糖糖、彩彩和小老鼠经常一起在森林里玩耍，创造了更多甜蜜的回忆。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林怎么了？"
+    },
+    "43d2156a6d2c74d19972c1fbdfa8d103": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u6545\\u4e8b\\u80cc\\u666f\", \"\\u865a\\u6784\\u4e16\\u754c\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\", \"\\u68ee\\u6797\", \"\\u89d2\\u8272\", \"\\u63a2\\u9669\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    },
+    "67b337e1797c3880bc6c2dd0f5321b21": {
+      "return": "糖果森林是一个充满糖果和奇迹的地方，居住着各种奇特生物。这个地方以其独特的自然景观和友好的居民而闻名。在糖果森林中，你可以找到由饼干构成的饼干山、流淌着巧克力质地水流的巧克力河以及隐藏着被黑暗魔法污染的水晶糖的水晶洞穴等奇妙的地理特征。\n\n此外，糖果森林还生活着一些特别的角色，比如糖糖——一只拥有柔软棉花糖般毛发和晶莹剔透蓝莓果冻般眼睛的小兔子；彩彩——一只会说话的彩虹蝴蝶，是糖糖最好的朋友；还有小老鼠——最初因为嫉妒而施加了黑暗魔法，后来被糖糖和彩彩的善良与真诚所感动，最终成为了新的朋友。这些角色共同维护着糖果森林的和平与甜蜜。\n\n总之，糖果森林不仅是一个美丽的自然景观，也是一个充满友情和正能量的奇妙世界。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    }
+  },
+  "hybrid": {
+    "8755e9fbac7e447eb32646483edace57": {
+      "return": "{\"high_level_keywords\": [\"Top themes\", \"Story overview\", \"Narrative elements\"], \"low_level_keywords\": []}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "What are the top themes in this story?"
+    },
+    "d062dd7920213dd2ca0e2ca13a343dc4": {
+      "return": "{\"high_level_keywords\": [\"\\u4e3b\\u8981\\u4e3b\\u9898\", \"\\u6545\\u4e8b\\u60c5\\u8282\", \"\\u6838\\u5fc3\\u601d\\u60f3\"], \"low_level_keywords\": [\"\\u4eba\\u7269\\u53d1\\u5c55\", \"\\u51b2\\u7a81\", \"\\u80cc\\u666f\\u8bbe\\u5b9a\", \"\\u7ed3\\u5c40\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "这个故事的主要主题是什么？"
+    },
+    "5bac963a58831dac495d318185ef307a": {
+      "return": "{\"high_level_keywords\": [\"\\u5c0f\\u5154\\u5b50\", \"\\u52a8\\u7269\\u540d\\u79f0\"], \"low_level_keywords\": [\"\\u540d\\u5b57\", \"\\u79f0\\u547c\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "小兔子叫什么？"
+    },
+    "a7690c669431135b4fbc9a2bd8a575c0": {
+      "return": "小兔子的名字叫糖糖。糖糖是一只住在糖果森林里的小兔子，以其柔软的棉花糖般的毛发和晶莹剔透的蓝莓果冻般的眼睛而著称。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "小兔子叫什么？"
+    },
+    "005d3f837a0999cdac800c86715be1b2": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u72b6\\u51b5\", \"\\u53d8\\u5316\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u95ee\\u9898\", \"\\u539f\\u56e0\", \"\\u5f71\\u54cd\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林怎么了？"
+    },
+    "c146cce5aaf224896e21ed49a0acf143": {
+      "return": "糖果森林曾经经历了一次危机，导致所有的糖果都失去了甜味，变得苦涩难吃。这是因为一只嫉妒的小老鼠施展了黑暗魔法，使得森林内的水晶糖受到了污染。幸运的是，糖糖——一只住在糖果森林里的小兔子，以及它的最好朋友彩彩——一只会说话的彩虹蝴蝶，发现了这一问题。\n\n糖糖和彩彩勇敢地踏上了寻找解决方案的旅程。它们穿越了著名的巧克力河和饼干山，最终到达了深藏于森林之中的水晶洞穴。在那里，它们找到了被黑暗魔法污染的水晶糖，并通过它们的善良和真诚感化了小老鼠。小老鼠意识到分享和友爱的重要性，解除了魔法，从而让糖果森林重新恢复了原有的甜蜜。\n\n自此之后，小老鼠成为了糖果森林的新朋友，它学会了分享和友爱，与糖糖和彩彩一起在森林里创造了更多甜蜜的回忆。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林怎么了？"
+    },
+    "3360337a2d801c18b539f025cdf241a5": {
+      "return": "{\"high_level_keywords\": [\"\\u7cd6\\u679c\\u68ee\\u6797\", \"\\u6545\\u4e8b\\u80cc\\u666f\", \"\\u865a\\u6784\\u4e16\\u754c\"], \"low_level_keywords\": [\"\\u7cd6\\u679c\", \"\\u68ee\\u6797\", \"\\u89d2\\u8272\", \"\\u5192\\u9669\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    },
+    "0ce8b3dc2bba07a8b8e89d13ca8746ea": {
+      "return": "糖果森林（Candy Forest）是一个充满糖果和奇迹的地方，居住着各种奇特生物。在这个神奇的地方，糖果不仅是食物，而且构成了整个环境的一部分。例如，糖果森林中有由饼干构成的独特形状的饼干山（Cookie Mountain），以及一条名字来源于其巧克力质地水流的巧克力河（Chocolate River）。森林深处还隐藏着一个名为水晶洞穴（Crystal Cave）的地方，里面藏有一颗被黑暗魔法污染的水晶糖。\n\n糖果森林中住着一位特别的朋友——糖糖（Sugar），它是一只小兔子，以其柔软的棉花糖般的毛发和晶莹剔透的蓝莓果冻般的眼睛而著称。糖糖最好的朋友是一只会说话的彩虹蝴蝶——彩彩（Rainbow），它们共同探索糖果森林并解决森林的问题。此外，曾经嫉妒的、施加黑暗魔法的小老鼠后来被糖糖和彩彩的善良与真诚所感动，成为了新的朋友。\n\n总的来说，糖果森林是一个美丽而神奇的地方，充满了甜蜜和奇迹。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    }
+  },
+  "default": {
+    "4f533e55ef8ad4ff95a5b4c09e72bce6": {
+      "return": "(\"entity\"<|>\"糖糖\"<|>\"person\"<|>\"糖糖是一只住在糖果森林里的小兔子，以其柔软的棉花糖般的毛发和晶莹剔透的蓝莓果冻般的眼睛而著称。\")##\n(\"entity\"<|>\"彩彩\"<|>\"person\"<|>\"彩彩是一只会说话的彩虹蝴蝶，是糖糖最好的朋友。\")##\n(\"entity\"<|>\"糖果森林\"<|>\"geo\"<|>\"糖果森林是一个充满糖果和奇迹的地方，居住着各种奇特生物。\")##\n(\"entity\"<|>\"巧克力河\"<|>\"geo\"<|>\"巧克力河是糖果森林中的一条河流，名字来源于其巧克力质地的水流。\")##\n(\"entity\"<|>\"饼干山\"<|>\"geo\"<|>\"饼干山是糖果森林中的一个地标，由饼干构成，形状独特。\")##\n(\"entity\"<|>\"水晶洞穴\"<|>\"geo\"<|>\"水晶洞穴位于糖果森林深处，内部藏有一颗被黑暗魔法污染的水晶糖。\")##\n(\"entity\"<|>\"小老鼠\"<|>\"person\"<|>\"小老鼠因嫉妒而对糖果森林施加了黑暗魔法，后被糖糖和彩彩的善良与真诚所感动，成为新的朋友。\")##\n(\"relationship\"<|>\"糖糖\"<|>\"彩彩\"<|>\"糖糖和彩彩是最好的朋友，它们一起探索糖果森林并解决森林的问题。\"<|>\"友谊，冒险\"<|>10)##\n(\"relationship\"<|>\"糖糖\"<|>\"糖果森林\"<|>\"糖糖生活在糖果森林中，与森林中的其他生物和谐共处。\"<|>\"居住地，环境\"<|>8)##\n(\"relationship\"<|>\"彩彩\"<|>\"糖果森林\"<|>\"彩彩也生活在糖果森林中，并帮助糖糖解决森林的问题。\"<|>\"居住地，环境\"<|>8)##\n(\"relationship\"<|>\"糖糖\"<|>\"小老鼠\"<|>\"糖糖和彩彩用善良和真诚感化了小老鼠，帮助它认识到分享和友爱的重要性。\"<|>\"友谊，转变\"<|>9)##\n(\"relationship\"<|>\"彩彩\"<|>\"小老鼠\"<|>\"彩彩帮助糖糖一起感化小老鼠，使它成为了新的朋友。\"<|>\"友谊，转变\"<|>9)##\n(\"relationship\"<|>\"糖果森林\"<|>\"巧克力河\"<|>\"糖果森林中有一条名为巧克力河的河流，是森林的一部分。\"<|>\"地理特征，环境\"<|>7)##\n(\"relationship\"<|>\"糖果森林\"<|>\"饼干山\"<|>\"糖果森林中有一座名为饼干山的山脉，是森林的一部分。\"<|>\"地理特征，环境\"<|>7)##\n(\"relationship\"<|>\"糖果森林\"<|>\"水晶洞穴\"<|>\"糖果森林深处有一个水晶洞穴，里面藏着被黑暗魔法污染的水晶糖。\"<|>\"地理特征，事件\"<|>8)##\n(\"relationship\"<|>\"水晶洞穴\"<|>\"小老鼠\"<|>\"水晶洞穴内的一颗被黑暗魔法污染的水晶糖是由嫉妒的小老鼠施法造成的。\"<|>\"魔法，事件\"<|>8)##\n(\"content_keywords\"<|>\"友谊，冒险，魔法，糖果森林，分享，友爱\")<|COMPLETE|>",
+      "cache_type": "extract",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "---Goal---\nGiven a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.\nUse English as output language.\n\n---Steps---\n1. Identify all entities. For each identified entity, extract the following information:\n- entity_name: Name of the entity, use same language as input text. If English, capitalized the name.\n- entity_type: One of the following types: [organization,person,geo,event,category]\n- entity_description: Comprehensive description of the entity's attributes and activities\nFormat each entity as (\"entity\"<|><entity_name><|><entity_type><|><entity_description>)\n\n2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.\nFor each pair of related entities, extract the following information:\n- source_entity: name of the source entity, as identified in step 1\n- target_entity: name of the target entity, as identified in step 1\n- relationship_description: explanation as to why you think the source entity and the target entity are related to each other\n- relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity\n- relationship_keywords: one or more high-level key words that summarize the overarching nature of the relationship, focusing on concepts or themes rather than specific details\nFormat each relationship as (\"relationship\"<|><source_entity><|><target_entity><|><relationship_description><|><relationship_keywords><|><relationship_strength>)\n\n3. Identify high-level key words that summarize the main concepts, themes, or topics of the entire text. These should capture the overarching ideas present in the document.\nFormat the content-level key words as (\"content_keywords\"<|><high_level_keywords>)\n\n4. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **##** as the list delimiter.\n\n5. When finished, output <|COMPLETE|>\n\n######################\n---Examples---\n######################\nExample 1:\n\nEntity_types: [person, technology, mission, organization, location]\nText:\n```\nwhile Alex clenched his jaw, the buzz of frustration dull against the backdrop of Taylor's authoritarian certainty. It was this competitive undercurrent that kept him alert, the sense that his and Jordan's shared commitment to discovery was an unspoken rebellion against Cruz's narrowing vision of control and order.\n\nThen Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. “If this tech can be understood...\" Taylor said, their voice quieter, \"It could change the game for us. For all of us.”\n\nThe underlying dismissal earlier seemed to falter, replaced by a glimpse of reluctant respect for the gravity of what lay in their hands. Jordan looked up, and for a fleeting heartbeat, their eyes locked with Taylor's, a wordless clash of wills softening into an uneasy truce.\n\nIt was a small transformation, barely perceptible, but one that Alex noted with an inward nod. They had all been brought here by different paths\n```\n\nOutput:\n(\"entity\"<|>\"Alex\"<|>\"person\"<|>\"Alex is a character who experiences frustration and is observant of the dynamics among other characters.\")##\n(\"entity\"<|>\"Taylor\"<|>\"person\"<|>\"Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective.\")##\n(\"entity\"<|>\"Jordan\"<|>\"person\"<|>\"Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device.\")##\n(\"entity\"<|>\"Cruz\"<|>\"person\"<|>\"Cruz is associated with a vision of control and order, influencing the dynamics among other characters.\")##\n(\"entity\"<|>\"The Device\"<|>\"technology\"<|>\"The Device is central to the story, with potential game-changing implications, and is revered by Taylor.\")##\n(\"relationship\"<|>\"Alex\"<|>\"Taylor\"<|>\"Alex is affected by Taylor's authoritarian certainty and observes changes in Taylor's attitude towards the device.\"<|>\"power dynamics, perspective shift\"<|>7)##\n(\"relationship\"<|>\"Alex\"<|>\"Jordan\"<|>\"Alex and Jordan share a commitment to discovery, which contrasts with Cruz's vision.\"<|>\"shared goals, rebellion\"<|>6)##\n(\"relationship\"<|>\"Taylor\"<|>\"Jordan\"<|>\"Taylor and Jordan interact directly regarding the device, leading to a moment of mutual respect and an uneasy truce.\"<|>\"conflict resolution, mutual respect\"<|>8)##\n(\"relationship\"<|>\"Jordan\"<|>\"Cruz\"<|>\"Jordan's commitment to discovery is in rebellion against Cruz's vision of control and order.\"<|>\"ideological conflict, rebellion\"<|>5)##\n(\"relationship\"<|>\"Taylor\"<|>\"The Device\"<|>\"Taylor shows reverence towards the device, indicating its importance and potential impact.\"<|>\"reverence, technological significance\"<|>9)##\n(\"content_keywords\"<|>\"power dynamics, ideological conflict, discovery, rebellion\")<|COMPLETE|>\n#############################\nExample 2:\n\nEntity_types: [company, index, commodity, market_trend, economic_policy, biological]\nText:\n```\nStock markets faced a sharp downturn today as tech giants saw significant declines, with the Global Tech Index dropping by 3.4% in midday trading. Analysts attribute the selloff to investor concerns over rising interest rates and regulatory uncertainty.\n\nAmong the hardest hit, Nexon Technologies saw its stock plummet by 7.8% after reporting lower-than-expected quarterly earnings. In contrast, Omega Energy posted a modest 2.1% gain, driven by rising oil prices.\n\nMeanwhile, commodity markets reflected a mixed sentiment. Gold futures rose by 1.5%, reaching $2,080 per ounce, as investors sought safe-haven assets. Crude oil prices continued their rally, climbing to $87.60 per barrel, supported by supply constraints and strong demand.\n\nFinancial experts are closely watching the Federal Reserve’s next move, as speculation grows over potential rate hikes. The upcoming policy announcement is expected to influence investor confidence and overall market stability.\n```\n\nOutput:\n(\"entity\"<|>\"Global Tech Index\"<|>\"index\"<|>\"The Global Tech Index tracks the performance of major technology stocks and experienced a 3.4% decline today.\")##\n(\"entity\"<|>\"Nexon Technologies\"<|>\"company\"<|>\"Nexon Technologies is a tech company that saw its stock decline by 7.8% after disappointing earnings.\")##\n(\"entity\"<|>\"Omega Energy\"<|>\"company\"<|>\"Omega Energy is an energy company that gained 2.1% in stock value due to rising oil prices.\")##\n(\"entity\"<|>\"Gold Futures\"<|>\"commodity\"<|>\"Gold futures rose by 1.5%, indicating increased investor interest in safe-haven assets.\")##\n(\"entity\"<|>\"Crude Oil\"<|>\"commodity\"<|>\"Crude oil prices rose to $87.60 per barrel due to supply constraints and strong demand.\")##\n(\"entity\"<|>\"Market Selloff\"<|>\"market_trend\"<|>\"Market selloff refers to the significant decline in stock values due to investor concerns over interest rates and regulations.\")##\n(\"entity\"<|>\"Federal Reserve Policy Announcement\"<|>\"economic_policy\"<|>\"The Federal Reserve's upcoming policy announcement is expected to impact investor confidence and market stability.\")##\n(\"relationship\"<|>\"Global Tech Index\"<|>\"Market Selloff\"<|>\"The decline in the Global Tech Index is part of the broader market selloff driven by investor concerns.\"<|>\"market performance, investor sentiment\"<|>9)##\n(\"relationship\"<|>\"Nexon Technologies\"<|>\"Global Tech Index\"<|>\"Nexon Technologies' stock decline contributed to the overall drop in the Global Tech Index.\"<|>\"company impact, index movement\"<|>8)##\n(\"relationship\"<|>\"Gold Futures\"<|>\"Market Selloff\"<|>\"Gold prices rose as investors sought safe-haven assets during the market selloff.\"<|>\"market reaction, safe-haven investment\"<|>10)##\n(\"relationship\"<|>\"Federal Reserve Policy Announcement\"<|>\"Market Selloff\"<|>\"Speculation over Federal Reserve policy changes contributed to market volatility and investor selloff.\"<|>\"interest rate impact, financial regulation\"<|>7)##\n(\"content_keywords\"<|>\"market downturn, investor sentiment, commodities, Federal Reserve, stock performance\")<|COMPLETE|>\n#############################\nExample 3:\n\nEntity_types: [economic_policy, athlete, event, location, record, organization, equipment]\nText:\n```\nAt the World Athletics Championship in Tokyo, Noah Carter broke the 100m sprint record using cutting-edge carbon-fiber spikes.\n```\n\nOutput:\n(\"entity\"<|>\"World Athletics Championship\"<|>\"event\"<|>\"The World Athletics Championship is a global sports competition featuring top athletes in track and field.\")##\n(\"entity\"<|>\"Tokyo\"<|>\"location\"<|>\"Tokyo is the host city of the World Athletics Championship.\")##\n(\"entity\"<|>\"Noah Carter\"<|>\"athlete\"<|>\"Noah Carter is a sprinter who set a new record in the 100m sprint at the World Athletics Championship.\")##\n(\"entity\"<|>\"100m Sprint Record\"<|>\"record\"<|>\"The 100m sprint record is a benchmark in athletics, recently broken by Noah Carter.\")##\n(\"entity\"<|>\"Carbon-Fiber Spikes\"<|>\"equipment\"<|>\"Carbon-fiber spikes are advanced sprinting shoes that provide enhanced speed and traction.\")##\n(\"entity\"<|>\"World Athletics Federation\"<|>\"organization\"<|>\"The World Athletics Federation is the governing body overseeing the World Athletics Championship and record validations.\")##\n(\"relationship\"<|>\"World Athletics Championship\"<|>\"Tokyo\"<|>\"The World Athletics Championship is being hosted in Tokyo.\"<|>\"event location, international competition\"<|>8)##\n(\"relationship\"<|>\"Noah Carter\"<|>\"100m Sprint Record\"<|>\"Noah Carter set a new 100m sprint record at the championship.\"<|>\"athlete achievement, record-breaking\"<|>10)##\n(\"relationship\"<|>\"Noah Carter\"<|>\"Carbon-Fiber Spikes\"<|>\"Noah Carter used carbon-fiber spikes to enhance performance during the race.\"<|>\"athletic equipment, performance boost\"<|>7)##\n(\"relationship\"<|>\"World Athletics Federation\"<|>\"100m Sprint Record\"<|>\"The World Athletics Federation is responsible for validating and recognizing new sprint records.\"<|>\"sports regulation, record certification\"<|>9)##\n(\"content_keywords\"<|>\"athletics, sprinting, record-breaking, sports technology, competition\")<|COMPLETE|>\n#############################\n\n#############################\n---Real Data---\n######################\nEntity_types: [organization,person,geo,event,category]\nText:\n在遥远的糖果森林里，住着一只名叫糖糖的小兔子。糖糖的毛发像棉花糖一样柔软，眼睛像蓝莓果冻一样晶莹剔透。它最好的朋友是一只会说话的彩虹蝴蝶，名叫彩彩。\n一天，糖果森林突然失去了甜味，所有的糖果都变得苦涩难吃。糖糖和彩彩决定去寻找原因。它们穿过巧克力河，翻过饼干山，终于来到了森林深处的水晶洞穴。\n在洞穴里，它们发现了一颗被黑暗魔法污染的水晶糖。原来是一只嫉妒的小老鼠施了魔法，因为它觉得大家都只喜欢糖果，不喜欢它。\n糖糖和彩彩用它们的善良和真诚打动了小老鼠。它们告诉小老鼠，友谊比糖果更甜美。小老鼠被感动了，它解除了魔法，糖果森林重新恢复了甜味。\n从那以后，小老鼠成为了糖果森林的新朋友，它学会了分享和友爱。糖糖、彩彩和小老鼠经常一起在森林里玩耍，创造更多甜蜜的回忆。\n这个故事告诉我们，真诚的友谊可以战胜一切，分享快乐会让生活更加美好。\n######################\nOutput:"
+    },
+    "856c85266df221df0c0c553428fa3699": {
+      "return": "---Goal---\nGiven a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.\nUse English as output language.\n\n---Steps---\n1. Identify all entities. For each identified entity, extract the following information:\n- entity_name: Name of the entity, use same language as input text. If English, capitalize the name.\n- entity_type: One of the following types: [organization, person, geo, event, category]\n- entity_description: Comprehensive description of the entity's attributes and activities\nFormat each entity as (\"entity\"<|><entity_name><|><entity_type><|><entity_description>)\n\n2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.\nFor each pair of related entities, extract the following information:\n- source_entity: name of the source entity, as identified in step 1\n- target_entity: name of the target entity, as identified in step 1\n- relationship_description: explanation as to why you think the source entity and the target entity are related to each other\n- relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity\n- relationship_keywords: one or more high-level key words that summarize the overarching nature of the relationship, focusing on concepts or themes rather than specific details\nFormat each relationship as (\"relationship\"<|><source_entity><|><target_entity><|><relationship_description><|><relationship_keywords><|><relationship_strength>)\n\n3. Identify high-level key words that summarize the main concepts, themes, or topics of the entire text. These should capture the overarching ideas present in the document.\nFormat the content-level key words as (\"content_keywords\"<|><high_level_keywords>)\n\n4. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **##** as the list delimiter.\n\n5. When finished, output <|COMPLETE|>\n\n---Real Data---\nEntity_types: [organization, person, geo, event, category]\nText:\nIn a far-off Candy Forest, there lives a little rabbit named Sugar. Sugar's fur is as soft as cotton candy, and her eyes are like blueberry jelly, crystal clear. Her best friend is a talking rainbow butterfly named Rainbow.\nOne day, the Candy Forest suddenly lost its sweetness, and all the candies became bitter. Sugar and Rainbow decided to find out the reason. They crossed the Chocolate River, climbed over the Cookie Mountain, and finally arrived at the Crystal Cave deep in the forest.\nInside the cave, they discovered a dark magic-infested crystal candy. A jealous little mouse had cast a spell because it thought everyone liked candies but not it.\nSugar and Rainbow used their kindness and sincerity to touch the little mouse. They told the little mouse that friendship is sweeter than candy. The little mouse was moved and lifted the curse, restoring the sweetness to the Candy Forest.\nFrom then on, the little mouse became a new friend of the Candy Forest, learning to share and love. Sugar, Rainbow, and the little mouse often play together in the forest, creating more sweet memories.\nThis story tells us that genuine friendship can overcome everything, and sharing happiness makes life better.\n\n---Output---\n\n(\"entity\"<|>\"Sugar\"<|>\"person\"<|>\"Sugar is a little rabbit living in the Candy Forest with cotton candy-like fur and crystal clear blueberry jelly eyes.\")##\n(\"entity\"<|>\"Rainbow\"<|>\"person\"<|>\"Rainbow is a talking rainbow butterfly and Sugar's best friend.\")##\n(\"entity\"<|>\"Candy Forest\"<|>\"geo\"<|>\"Candy Forest is a magical place where various sweet creatures live, including Sugar and Rainbow.\")##\n(\"entity\"<|>\"Chocolate River\"<|>\"geo\"<|>\"Chocolate River is a river within the Candy Forest known for its chocolate-like water.\")##\n(\"entity\"<|>\"Cookie Mountain\"<|>\"geo\"<|>\"Cookie Mountain is a mountain within the Candy Forest made of cookies.\")##\n(\"entity\"<|>\"Crystal Cave\"<|>\"geo\"<|>\"Crystal Cave is a cave deep within the Candy Forest containing a dark magic-infested crystal candy.\")##\n(\"entity\"<|>\"Little Mouse\"<|>\"person\"<|>\"A jealous little mouse that casts a spell causing the loss of sweetness in the Candy Forest.\")##\n(\"relationship\"<|>\"Sugar\"<|>\"Rainbow\"<|>\"Sugar and Rainbow are best friends who explore the Candy Forest and solve problems together.\"<>friendship, adventure<>9)##\n(\"relationship\"<|>\"Sugar\"<|>\"Candy Forest\"<|>\"Sugar lives in the Candy Forest and interacts with its inhabitants.\"<>habitat, environment<>8)##\n(\"relationship\"<|>\"Rainbow\"<|>\"Candy Forest\"<|>\"Rainbow also lives in the Candy Forest and helps Sugar with adventures.\"<>habitat, environment<>8)##\n(\"relationship\"<|>\"Sugar\"<|>\"Chocolate River\"<|>\"Sugar and Rainbow cross the Chocolate River during their journey.\"<>travel, exploration<>7)##\n(\"relationship\"<|>\"Rainbow\"<|>\"Chocolate River\"<|>\"Rainbow and Sugar cross the Chocolate River during their journey.\"<>travel, exploration<>7)##\n(\"relationship\"<|>\"Sugar\"<|>\"Cookie Mountain\"<|>\"Sugar and Rainbow climb over the Cookie Mountain during their journey.\"<>travel, exploration<>7)##\n(\"relationship\"<|>\"Rainbow\"<|>\"Cookie Mountain\"<|>\"Rainbow and Sugar climb over the Cookie Mountain during their journey.\"<>travel, exploration<>7)##\n(\"relationship\"<|>\"Sugar\"<|>\"Crystal Cave\"<|>\"Sugar and Rainbow discover the dark magic-infested crystal candy inside the Crystal Cave.\"<>exploration, discovery<>8)##\n(\"relationship\"<|>\"Rainbow\"<|>\"Crystal Cave\"<|>\"Rainbow and Sugar discover the dark magic-infested crystal candy inside the Crystal Cave.\"<>exploration, discovery<>8)##\n(\"relationship\"<|>\"Sugar\"<|>\"Little Mouse\"<|>\"Sugar and Rainbow use their kindness to touch the little mouse and help it understand the importance of friendship.\"<>kindness, friendship<>9)##\n(\"relationship\"<|>\"Rainbow\"<|>\"Little Mouse\"<|>\"Rainbow and Sugar use their kindness to touch the little mouse and help it understand the importance of friendship.\"<>kindness, friendship<>9)##\n(\"relationship\"<|>\"Little Mouse\"<|>\"Candy Forest\"<|>\"The little mouse becomes a new friend of the Candy Forest and learns to share and love.\"<>friendship, transformation<>8)##\n(\"content_keywords\"<|>\"friendship, adventure, magic, Candy Forest, sharing, love\")<|COMPLETE|>",
+      "cache_type": "extract",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "[{\"role\": \"user\", \"content\": \"---Goal---\\nGiven a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.\\nUse English as output language.\\n\\n---Steps---\\n1. Identify all entities. For each identified entity, extract the following information:\\n- entity_name: Name of the entity, use same language as input text. If English, capitalized the name.\\n- entity_type: One of the following types: [organization,person,geo,event,category]\\n- entity_description: Comprehensive description of the entity's attributes and activities\\nFormat each entity as (\\\"entity\\\"<|><entity_name><|><entity_type><|><entity_description>)\\n\\n2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.\\nFor each pair of related entities, extract the following information:\\n- source_entity: name of the source entity, as identified in step 1\\n- target_entity: name of the target entity, as identified in step 1\\n- relationship_description: explanation as to why you think the source entity and the target entity are related to each other\\n- relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity\\n- relationship_keywords: one or more high-level key words that summarize the overarching nature of the relationship, focusing on concepts or themes rather than specific details\\nFormat each relationship as (\\\"relationship\\\"<|><source_entity><|><target_entity><|><relationship_description><|><relationship_keywords><|><relationship_strength>)\\n\\n3. Identify high-level key words that summarize the main concepts, themes, or topics of the entire text. These should capture the overarching ideas present in the document.\\nFormat the content-level key words as (\\\"content_keywords\\\"<|><high_level_keywords>)\\n\\n4. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **##** as the list delimiter.\\n\\n5. When finished, output <|COMPLETE|>\\n\\n######################\\n---Examples---\\n######################\\nExample 1:\\n\\nEntity_types: [person, technology, mission, organization, location]\\nText:\\n```\\nwhile Alex clenched his jaw, the buzz of frustration dull against the backdrop of Taylor's authoritarian certainty. It was this competitive undercurrent that kept him alert, the sense that his and Jordan's shared commitment to discovery was an unspoken rebellion against Cruz's narrowing vision of control and order.\\n\\nThen Taylor did something unexpected. They paused beside Jordan and, for a moment, observed the device with something akin to reverence. “If this tech can be understood...\\\" Taylor said, their voice quieter, \\\"It could change the game for us. For all of us.”\\n\\nThe underlying dismissal earlier seemed to falter, replaced by a glimpse of reluctant respect for the gravity of what lay in their hands. Jordan looked up, and for a fleeting heartbeat, their eyes locked with Taylor's, a wordless clash of wills softening into an uneasy truce.\\n\\nIt was a small transformation, barely perceptible, but one that Alex noted with an inward nod. They had all been brought here by different paths\\n```\\n\\nOutput:\\n(\\\"entity\\\"<|>\\\"Alex\\\"<|>\\\"person\\\"<|>\\\"Alex is a character who experiences frustration and is observant of the dynamics among other characters.\\\")##\\n(\\\"entity\\\"<|>\\\"Taylor\\\"<|>\\\"person\\\"<|>\\\"Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective.\\\")##\\n(\\\"entity\\\"<|>\\\"Jordan\\\"<|>\\\"person\\\"<|>\\\"Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device.\\\")##\\n(\\\"entity\\\"<|>\\\"Cruz\\\"<|>\\\"person\\\"<|>\\\"Cruz is associated with a vision of control and order, influencing the dynamics among other characters.\\\")##\\n(\\\"entity\\\"<|>\\\"The Device\\\"<|>\\\"technology\\\"<|>\\\"The Device is central to the story, with potential game-changing implications, and is revered by Taylor.\\\")##\\n(\\\"relationship\\\"<|>\\\"Alex\\\"<|>\\\"Taylor\\\"<|>\\\"Alex is affected by Taylor's authoritarian certainty and observes changes in Taylor's attitude towards the device.\\\"<|>\\\"power dynamics, perspective shift\\\"<|>7)##\\n(\\\"relationship\\\"<|>\\\"Alex\\\"<|>\\\"Jordan\\\"<|>\\\"Alex and Jordan share a commitment to discovery, which contrasts with Cruz's vision.\\\"<|>\\\"shared goals, rebellion\\\"<|>6)##\\n(\\\"relationship\\\"<|>\\\"Taylor\\\"<|>\\\"Jordan\\\"<|>\\\"Taylor and Jordan interact directly regarding the device, leading to a moment of mutual respect and an uneasy truce.\\\"<|>\\\"conflict resolution, mutual respect\\\"<|>8)##\\n(\\\"relationship\\\"<|>\\\"Jordan\\\"<|>\\\"Cruz\\\"<|>\\\"Jordan's commitment to discovery is in rebellion against Cruz's vision of control and order.\\\"<|>\\\"ideological conflict, rebellion\\\"<|>5)##\\n(\\\"relationship\\\"<|>\\\"Taylor\\\"<|>\\\"The Device\\\"<|>\\\"Taylor shows reverence towards the device, indicating its importance and potential impact.\\\"<|>\\\"reverence, technological significance\\\"<|>9)##\\n(\\\"content_keywords\\\"<|>\\\"power dynamics, ideological conflict, discovery, rebellion\\\")<|COMPLETE|>\\n#############################\\nExample 2:\\n\\nEntity_types: [company, index, commodity, market_trend, economic_policy, biological]\\nText:\\n```\\nStock markets faced a sharp downturn today as tech giants saw significant declines, with the Global Tech Index dropping by 3.4% in midday trading. Analysts attribute the selloff to investor concerns over rising interest rates and regulatory uncertainty.\\n\\nAmong the hardest hit, Nexon Technologies saw its stock plummet by 7.8% after reporting lower-than-expected quarterly earnings. In contrast, Omega Energy posted a modest 2.1% gain, driven by rising oil prices.\\n\\nMeanwhile, commodity markets reflected a mixed sentiment. Gold futures rose by 1.5%, reaching $2,080 per ounce, as investors sought safe-haven assets. Crude oil prices continued their rally, climbing to $87.60 per barrel, supported by supply constraints and strong demand.\\n\\nFinancial experts are closely watching the Federal Reserve’s next move, as speculation grows over potential rate hikes. The upcoming policy announcement is expected to influence investor confidence and overall market stability.\\n```\\n\\nOutput:\\n(\\\"entity\\\"<|>\\\"Global Tech Index\\\"<|>\\\"index\\\"<|>\\\"The Global Tech Index tracks the performance of major technology stocks and experienced a 3.4% decline today.\\\")##\\n(\\\"entity\\\"<|>\\\"Nexon Technologies\\\"<|>\\\"company\\\"<|>\\\"Nexon Technologies is a tech company that saw its stock decline by 7.8% after disappointing earnings.\\\")##\\n(\\\"entity\\\"<|>\\\"Omega Energy\\\"<|>\\\"company\\\"<|>\\\"Omega Energy is an energy company that gained 2.1% in stock value due to rising oil prices.\\\")##\\n(\\\"entity\\\"<|>\\\"Gold Futures\\\"<|>\\\"commodity\\\"<|>\\\"Gold futures rose by 1.5%, indicating increased investor interest in safe-haven assets.\\\")##\\n(\\\"entity\\\"<|>\\\"Crude Oil\\\"<|>\\\"commodity\\\"<|>\\\"Crude oil prices rose to $87.60 per barrel due to supply constraints and strong demand.\\\")##\\n(\\\"entity\\\"<|>\\\"Market Selloff\\\"<|>\\\"market_trend\\\"<|>\\\"Market selloff refers to the significant decline in stock values due to investor concerns over interest rates and regulations.\\\")##\\n(\\\"entity\\\"<|>\\\"Federal Reserve Policy Announcement\\\"<|>\\\"economic_policy\\\"<|>\\\"The Federal Reserve's upcoming policy announcement is expected to impact investor confidence and market stability.\\\")##\\n(\\\"relationship\\\"<|>\\\"Global Tech Index\\\"<|>\\\"Market Selloff\\\"<|>\\\"The decline in the Global Tech Index is part of the broader market selloff driven by investor concerns.\\\"<|>\\\"market performance, investor sentiment\\\"<|>9)##\\n(\\\"relationship\\\"<|>\\\"Nexon Technologies\\\"<|>\\\"Global Tech Index\\\"<|>\\\"Nexon Technologies' stock decline contributed to the overall drop in the Global Tech Index.\\\"<|>\\\"company impact, index movement\\\"<|>8)##\\n(\\\"relationship\\\"<|>\\\"Gold Futures\\\"<|>\\\"Market Selloff\\\"<|>\\\"Gold prices rose as investors sought safe-haven assets during the market selloff.\\\"<|>\\\"market reaction, safe-haven investment\\\"<|>10)##\\n(\\\"relationship\\\"<|>\\\"Federal Reserve Policy Announcement\\\"<|>\\\"Market Selloff\\\"<|>\\\"Speculation over Federal Reserve policy changes contributed to market volatility and investor selloff.\\\"<|>\\\"interest rate impact, financial regulation\\\"<|>7)##\\n(\\\"content_keywords\\\"<|>\\\"market downturn, investor sentiment, commodities, Federal Reserve, stock performance\\\")<|COMPLETE|>\\n#############################\\nExample 3:\\n\\nEntity_types: [economic_policy, athlete, event, location, record, organization, equipment]\\nText:\\n```\\nAt the World Athletics Championship in Tokyo, Noah Carter broke the 100m sprint record using cutting-edge carbon-fiber spikes.\\n```\\n\\nOutput:\\n(\\\"entity\\\"<|>\\\"World Athletics Championship\\\"<|>\\\"event\\\"<|>\\\"The World Athletics Championship is a global sports competition featuring top athletes in track and field.\\\")##\\n(\\\"entity\\\"<|>\\\"Tokyo\\\"<|>\\\"location\\\"<|>\\\"Tokyo is the host city of the World Athletics Championship.\\\")##\\n(\\\"entity\\\"<|>\\\"Noah Carter\\\"<|>\\\"athlete\\\"<|>\\\"Noah Carter is a sprinter who set a new record in the 100m sprint at the World Athletics Championship.\\\")##\\n(\\\"entity\\\"<|>\\\"100m Sprint Record\\\"<|>\\\"record\\\"<|>\\\"The 100m sprint record is a benchmark in athletics, recently broken by Noah Carter.\\\")##\\n(\\\"entity\\\"<|>\\\"Carbon-Fiber Spikes\\\"<|>\\\"equipment\\\"<|>\\\"Carbon-fiber spikes are advanced sprinting shoes that provide enhanced speed and traction.\\\")##\\n(\\\"entity\\\"<|>\\\"World Athletics Federation\\\"<|>\\\"organization\\\"<|>\\\"The World Athletics Federation is the governing body overseeing the World Athletics Championship and record validations.\\\")##\\n(\\\"relationship\\\"<|>\\\"World Athletics Championship\\\"<|>\\\"Tokyo\\\"<|>\\\"The World Athletics Championship is being hosted in Tokyo.\\\"<|>\\\"event location, international competition\\\"<|>8)##\\n(\\\"relationship\\\"<|>\\\"Noah Carter\\\"<|>\\\"100m Sprint Record\\\"<|>\\\"Noah Carter set a new 100m sprint record at the championship.\\\"<|>\\\"athlete achievement, record-breaking\\\"<|>10)##\\n(\\\"relationship\\\"<|>\\\"Noah Carter\\\"<|>\\\"Carbon-Fiber Spikes\\\"<|>\\\"Noah Carter used carbon-fiber spikes to enhance performance during the race.\\\"<|>\\\"athletic equipment, performance boost\\\"<|>7)##\\n(\\\"relationship\\\"<|>\\\"World Athletics Federation\\\"<|>\\\"100m Sprint Record\\\"<|>\\\"The World Athletics Federation is responsible for validating and recognizing new sprint records.\\\"<|>\\\"sports regulation, record certification\\\"<|>9)##\\n(\\\"content_keywords\\\"<|>\\\"athletics, sprinting, record-breaking, sports technology, competition\\\")<|COMPLETE|>\\n#############################\\n\\n#############################\\n---Real Data---\\n######################\\nEntity_types: [organization,person,geo,event,category]\\nText:\\n在遥远的糖果森林里，住着一只名叫糖糖的小兔子。糖糖的毛发像棉花糖一样柔软，眼睛像蓝莓果冻一样晶莹剔透。它最好的朋友是一只会说话的彩虹蝴蝶，名叫彩彩。\\n一天，糖果森林突然失去了甜味，所有的糖果都变得苦涩难吃。糖糖和彩彩决定去寻找原因。它们穿过巧克力河，翻过饼干山，终于来到了森林深处的水晶洞穴。\\n在洞穴里，它们发现了一颗被黑暗魔法污染的水晶糖。原来是一只嫉妒的小老鼠施了魔法，因为它觉得大家都只喜欢糖果，不喜欢它。\\n糖糖和彩彩用它们的善良和真诚打动了小老鼠。它们告诉小老鼠，友谊比糖果更甜美。小老鼠被感动了，它解除了魔法，糖果森林重新恢复了甜味。\\n从那以后，小老鼠成为了糖果森林的新朋友，它学会了分享和友爱。糖糖、彩彩和小老鼠经常一起在森林里玩耍，创造更多甜蜜的回忆。\\n这个故事告诉我们，真诚的友谊可以战胜一切，分享快乐会让生活更加美好。\\n######################\\nOutput:\"}, {\"role\": \"assistant\", \"content\": \"(\\\"entity\\\"<|>\\\"糖糖\\\"<|>\\\"person\\\"<|>\\\"糖糖是一只住在糖果森林里的小兔子，以其柔软的棉花糖般的毛发和晶莹剔透的蓝莓果冻般的眼睛而著称。\\\")##\\n(\\\"entity\\\"<|>\\\"彩彩\\\"<|>\\\"person\\\"<|>\\\"彩彩是一只会说话的彩虹蝴蝶，是糖糖最好的朋友。\\\")##\\n(\\\"entity\\\"<|>\\\"糖果森林\\\"<|>\\\"geo\\\"<|>\\\"糖果森林是一个充满糖果和奇迹的地方，居住着各种奇特生物。\\\")##\\n(\\\"entity\\\"<|>\\\"巧克力河\\\"<|>\\\"geo\\\"<|>\\\"巧克力河是糖果森林中的一条河流，名字来源于其巧克力质地的水流。\\\")##\\n(\\\"entity\\\"<|>\\\"饼干山\\\"<|>\\\"geo\\\"<|>\\\"饼干山是糖果森林中的一个地标，由饼干构成，形状独特。\\\")##\\n(\\\"entity\\\"<|>\\\"水晶洞穴\\\"<|>\\\"geo\\\"<|>\\\"水晶洞穴位于糖果森林深处，内部藏有一颗被黑暗魔法污染的水晶糖。\\\")##\\n(\\\"entity\\\"<|>\\\"小老鼠\\\"<|>\\\"person\\\"<|>\\\"小老鼠因嫉妒而对糖果森林施加了黑暗魔法，后被糖糖和彩彩的善良与真诚所感动，成为新的朋友。\\\")##\\n(\\\"relationship\\\"<|>\\\"糖糖\\\"<|>\\\"彩彩\\\"<|>\\\"糖糖和彩彩是最好的朋友，它们一起探索糖果森林并解决森林的问题。\\\"<|>\\\"友谊，冒险\\\"<|>10)##\\n(\\\"relationship\\\"<|>\\\"糖糖\\\"<|>\\\"糖果森林\\\"<|>\\\"糖糖生活在糖果森林中，与森林中的其他生物和谐共处。\\\"<|>\\\"居住地，环境\\\"<|>8)##\\n(\\\"relationship\\\"<|>\\\"彩彩\\\"<|>\\\"糖果森林\\\"<|>\\\"彩彩也生活在糖果森林中，并帮助糖糖解决森林的问题。\\\"<|>\\\"居住地，环境\\\"<|>8)##\\n(\\\"relationship\\\"<|>\\\"糖糖\\\"<|>\\\"小老鼠\\\"<|>\\\"糖糖和彩彩用善良和真诚感化了小老鼠，帮助它认识到分享和友爱的重要性。\\\"<|>\\\"友谊，转变\\\"<|>9)##\\n(\\\"relationship\\\"<|>\\\"彩彩\\\"<|>\\\"小老鼠\\\"<|>\\\"彩彩帮助糖糖一起感化小老鼠，使它成为了新的朋友。\\\"<|>\\\"友谊，转变\\\"<|>9)##\\n(\\\"relationship\\\"<|>\\\"糖果森林\\\"<|>\\\"巧克力河\\\"<|>\\\"糖果森林中有一条名为巧克力河的河流，是森林的一部分。\\\"<|>\\\"地理特征，环境\\\"<|>7)##\\n(\\\"relationship\\\"<|>\\\"糖果森林\\\"<|>\\\"饼干山\\\"<|>\\\"糖果森林中有一座名为饼干山的山脉，是森林的一部分。\\\"<|>\\\"地理特征，环境\\\"<|>7)##\\n(\\\"relationship\\\"<|>\\\"糖果森林\\\"<|>\\\"水晶洞穴\\\"<|>\\\"糖果森林深处有一个水晶洞穴，里面藏着被黑暗魔法污染的水晶糖。\\\"<|>\\\"地理特征，事件\\\"<|>8)##\\n(\\\"relationship\\\"<|>\\\"水晶洞穴\\\"<|>\\\"小老鼠\\\"<|>\\\"水晶洞穴内的一颗被黑暗魔法污染的水晶糖是由嫉妒的小老鼠施法造成的。\\\"<|>\\\"魔法，事件\\\"<|>8)##\\n(\\\"content_keywords\\\"<|>\\\"友谊，冒险，魔法，糖果森林，分享，友爱\\\")<|COMPLETE|>\"}]\nMANY entities and relationships were missed in the last extraction.\n\n---Remember Steps---\n\n1. Identify all entities. For each identified entity, extract the following information:\n- entity_name: Name of the entity, use same language as input text. If English, capitalized the name.\n- entity_type: One of the following types: [{entity_types}]\n- entity_description: Comprehensive description of the entity's attributes and activities\nFormat each entity as (\"entity\"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>\n\n2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.\nFor each pair of related entities, extract the following information:\n- source_entity: name of the source entity, as identified in step 1\n- target_entity: name of the target entity, as identified in step 1\n- relationship_description: explanation as to why you think the source entity and the target entity are related to each other\n- relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity\n- relationship_keywords: one or more high-level key words that summarize the overarching nature of the relationship, focusing on concepts or themes rather than specific details\nFormat each relationship as (\"relationship\"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_keywords>{tuple_delimiter}<relationship_strength>)\n\n3. Identify high-level key words that summarize the main concepts, themes, or topics of the entire text. These should capture the overarching ideas present in the document.\nFormat the content-level key words as (\"content_keywords\"{tuple_delimiter}<high_level_keywords>)\n\n4. Return output in {language} as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.\n\n5. When finished, output {completion_delimiter}\n\n---Output---\n\nAdd them below using the same format:"
+    }
+  },
+  "naive": {
+    "0237b8a22036aa8bf5903712c1e2f588": {
+      "return": "小兔子的名字叫糖糖。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "小兔子叫什么？"
+    },
+    "b5cf2ca648ae5179ea71557076636bbe": {
+      "return": "糖果森林突然失去了甜味，所有的糖果都变得苦涩难吃。这个问题的起因是森林深处的水晶洞穴中的一颗水晶糖被黑暗魔法污染了。这颗水晶糖受到了一只嫉妒的小老鼠的魔法攻击，导致整个森林的糖果都失去了原有的甜味。为了恢复森林的甜味，糖糖和彩彩踏上了寻找真相的旅程，并最终成功解决了这个问题。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林怎么了？"
+    },
+    "e2f7eceacbd973210aec334b91cad518": {
+      "return": "糖果森林是一个充满奇幻色彩的地方，在那里有着各种以食物为主题的自然景观。在这片森林中，糖果不再是普通的食品，而是构成了整个环境的一部分。例如，森林中的河流是由巧克力构成的，而山峦则是由饼干堆叠而成的。森林里的生物也各具特色，比如主人公糖糖是一只毛发像棉花糖一样柔软的小兔子，而它的朋友彩虹蝴蝶彩彩则会说话。糖果森林象征着一个充满甜蜜与欢乐的世界，但同时也会遇到一些需要通过友谊和善良来解决的问题。在这个故事中，糖果森林曾经因为一颗被黑暗魔法污染的水晶糖而失去甜味，但在主人公们的努力下，最终又恢复了往日的甜蜜与和谐。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "糖果森林是什么？"
+    }
+  }
+}
