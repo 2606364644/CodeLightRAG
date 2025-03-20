@@ -1,0 +1,12 @@
+{
+    "working_dir": "_rag_db_qwq32b_test",
+    "llm_base_url": "http://10.72.1.16:12588/v1",
+    "llm_api_key": "sk-1Lo9AiW9a5Sh63tO78927e8eAe0844F6A070DfEb79Ec48B9",
+    "llm_model_name": "qwq-32b",
+    "llm_model_max_token_size": 200,
+    "embedding": {
+        "model_name": "all-MiniLM-L6-v2",
+        "embedding_dim": 384,
+        "max_token_size": 1024
+    }
+}

@@ -175,20 +175,20 @@ async def main():
         rag = await initialize_rag()
         
         # 使用生成器读取文件并插入
-        # async for content in read_files_from_directory(WORKING_DIR, '.txt'):
-        #     content = content.replace("\n", "")
-        #     # insert_custom_chunks 自行分块，但也会自动创建实体
-        #     # 想要手动创建实体，使用 create_entity
+        async for content in read_files_from_directory(WORKING_DIR, '.txt'):
+            content = content.replace("\n", "")
+            # insert_custom_chunks 自行分块，但也会自动创建实体
+            # 想要手动创建实体，使用 create_entity
             # await rag.insert_custom_chunks(full_text=content, text_chunks=[content], doc_id=1)
         
         # create_entity 手动创建实体
         # 不需要前面的insert_custom_chunks了，不需要插入chunk信息
-        entity = await rag.acreate_entity(entity_name="糖果森林", entity_data={
-            "entity_type": "world",
-            "description": "糖果森林是一个虚构的世界，由一群热爱糖果的人组成。",
-        })
-        # acreate_relation 手动创建关系
-        relation = await rag.acreate_relation(source_entity=None, target_entity=None, relation_data={})
+        # entity = await rag.acreate_entity(entity_name="糖果森林", entity_data={
+        #     "entity_type": "world",
+        #     "description": "糖果森林是一个虚构的世界，由一群热爱糖果的人组成。",
+        # })
+        # # acreate_relation 手动创建关系
+        # relation = await rag.acreate_relation(source_entity=None, target_entity=None, relation_data={})
         
         # Perform naive search
         print("naive:")

@@ -1,0 +1,12 @@
+{
+    "working_dir": "_rag_db_qwen72b_test_copy",
+    "llm_base_url": "http://10.72.1.16:12588/v1",
+    "llm_api_key": "sk-1Lo9AiW9a5Sh63tO78927e8eAe0844F6A070DfEb79Ec48B9",
+    "llm_model_name": "qwen72b-int8",
+    "llm_model_max_token_size": 500,
+    "embedding": {
+        "model_name": "all-MiniLM-L6-v2",
+        "embedding_dim": 384,
+        "max_token_size": 1024
+    }
+}

@@ -12,18 +12,19 @@ PROMPTS["DEFAULT_COMPLETION_DELIMITER"] = "<|COMPLETE|>"
 
 PROMPTS["DEFAULT_ENTITY_TYPES"] = ["organization", "person", "geo", "event", "category"]
 
-PROMPTS["entity_extraction"] = """---Goal---
+PROMPTS["entity_extraction"] = """-Goal-
 Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
-Use {language} as output language.
 
----Steps---
+-Steps-
 1. Identify all entities. For each identified entity, extract the following information:
-- entity_name: Name of the entity, use same language as input text. If English, capitalized the name.
+- entity_name: Name of the entity, Refers to function definitions or function calls, Does not include class definition. use same language as input text. If English, capitalized the name. For example, the code from testing.utils.unit_test_prebuild_tool import UnitTestPrebuildTool\nUnitTestPrebuildTool.create_alarm_log() is represented as TESTING.UTILS.UNIT_TEST_PREBUILD_TOOL:UNITTESTPREBUILDTOOL.create_alarm_log
 - entity_type: One of the following types: [{entity_types}]
 - entity_description: Comprehensive description of the entity's attributes and activities
-Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+Format entity_name as <package:class.function>
+If there is no class name format as <package:function>
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>
 
-2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other. Refers to function call relationships.
 For each pair of related entities, extract the following information:
 - source_entity: name of the source entity, as identified in step 1
 - target_entity: name of the target entity, as identified in step 1
@@ -35,21 +36,53 @@ Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tupl
 3. Identify high-level key words that summarize the main concepts, themes, or topics of the entire text. These should capture the overarching ideas present in the document.
 Format the content-level key words as ("content_keywords"{tuple_delimiter}<high_level_keywords>)
 
-4. Return output in {language} as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+4. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
 
 5. When finished, output {completion_delimiter}
 
 ######################
----Examples---
+-Examples-
 ######################
-{examples}
+Example 1:
 
-#############################
----Real Data---
-######################
-Entity_types: [{entity_types}]
+Entity_types: [function]
 Text:
-{input_text}
+"<code-block code-path=\"risk_qualitative\\qualitative.py\">\n<code>\nimport logging\nfrom threading import Thread\nfrom risk_qualitative.util.utils import Config\nfrom risk_qualitative.util.pulsar_util import get_pulsar_consumer, get_pulsar_producer\nfrom risk_qualitative.schemas.pulsar.config import DataSecurityLogProducerName\nfrom risk_qualitative.schemas.pulsar.config import PulsarConfig\n\nclass RiskQualitative:\n    def run(self):\n        logging.info(f\"prepare receive risk_data_security_log message...\")\n        works_num = Config[\"base\"][\"works_num\"]\n        consumer = get_pulsar_consumer(\n            port=PulsarConfig.port,\n            host=PulsarConfig.host,\n            topic=DataSecurityLogProducerName.dsp_data_security_log_produces_name,\n            subscribe_name=\"risk_qualitative_consumer\",\n            authentication=PulsarConfig.authentication\n        )\n        producer = get_pulsar_producer(\n            port=PulsarConfig.port,\n            host=PulsarConfig.host,\n            authentication=PulsarConfig.authentication\n        )\n        self.get_data_from_pulsar(consumer)\n        for i in range(works_num):\n            Thread(target=self.worker, args=(i, producer,), daemon=True).start()\n        while True:\n            self.get_data_from_pulsar(consumer)\n            inactive = HeartbeatMonitor.check_inactive()\n            if inactive is True:\n                break\n            time.sleep(60)\n        return\n<code>\n<code-block>"
+################
+Output:
+("entity"{tuple_delimiter}"risk_qualitative/qualitative:RiskQualitative.run"{tuple_delimiter}"function"{tuple_delimiter}"RiskQualitative.run is a function definition"){record_delimiter}
+("entity"{tuple_delimiter}"risk_qualitative/util/pulsar_util:get_pulsar_consumer"{tuple_delimiter}"function"{tuple_delimiter}"get_pulsar_consumer is the called function"){record_delimiter}
+("entity"{tuple_delimiter}"risk_qualitative/util/pulsar_util:get_pulsar_producer"{tuple_delimiter}"function"{tuple_delimiter}"get_pulsar_producer is the called function"){record_delimiter}
+("entity"{tuple_delimiter}"risk_qualitative/qualitative:RiskQualitative.get_data_from_pulsar"{tuple_delimiter}"function"{tuple_delimiter}"RiskQualitative.get_data_from_pulsar is the called function"){record_delimiter}
+("entity"{tuple_delimiter}"risk_qualitative/qualitative:HeartbeatMonitor.check_inactive"{tuple_delimiter}"function"{tuple_delimiter}"HeartbeatMonitor.check_inactive is the called function"){record_delimiter}
+("relationship"{tuple_delimiter}"risk_qualitative/qualitative:RiskQualitative.run"{tuple_delimiter}"risk_qualitative/util/pulsar_util.get_pulsar_consumer"{tuple_delimiter}"RiskQualitative.run calls get_pulsar_consumer ."{tuple_delimiter}"RiskQualitative.run, get_pulsar_consumer, risk_qualitative/util/pulsar_util"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"risk_qualitative/qualitative:RiskQualitative.run"{tuple_delimiter}"risk_qualitative/util/pulsar_util.get_pulsar_producer"{tuple_delimiter}"RiskQualitative.run calls get_pulsar_producer ."{tuple_delimiter}"RiskQualitative.run, get_pulsar_producer, risk_qualitative/util/pulsar_util"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"risk_qualitative/qualitative:RiskQualitative.run"{tuple_delimiter}"risk_qualitative/qualitative/RiskQualitative.get_data_from_pulsar"{tuple_delimiter}"RiskQualitative.run calls RiskQualitative.get_data_from_pulsar ."{tuple_delimiter}"RiskQualitative.run, RiskQualitative.get_data_from_pulsar"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"risk_qualitative/qualitative:RiskQualitative.run"{tuple_delimiter}"risk_qualitative/qualitative/HeartbeatMonitor.check_inactive"{tuple_delimiter}"RiskQualitative.run calls HeartbeatMonitor.check_inactive ."{tuple_delimiter}"RiskQualitative.run, HeartbeatMonitor.check_inactive"{tuple_delimiter}7){record_delimiter}
+("content_keywords"{tuple_delimiter}"RiskQualitative.run, get_pulsar_consumer, get_pulsar_producer, RiskQualitative.get_data_from_pulsar, HeartbeatMonitor.check_inactive, risk_qualitative/util/pulsar_util"){completion_delimiter}
+#############################
+Example 2:
+
+Entity_types: [function]
+Text:
+"<code-block code-path=\"task_actuator\\main.go\">\n<code>\n```go\nimport (\n\t\"GPUTASKD/pkg/logger\"\n\t\"GPUTASKD/task_actuator/middleware\"\n\t\"GPUTASKD/task_actuator/internal/router\"\n\t\"GPUTASKD/pkg\"\n\t\"errors\"\n\t\"fmt\"\n\t\"github.com/gin-gonic/gin\"\n\t\"net/http\"\n\t\"time\"\n)\n\nfunc main() {{\n\t// 初始化日志\n\tif err := logger.InitInnerLogger(\"dspm_task_gpu\", \"task_actuator\"); err != nil {{\n\t\tfmt.Printf(\"InitInnerLogger err: %v\", err)\n\t\treturn\n\t}}\n\tinitApexConnector()\n\t// 初始化 HTTP 服务\n\tgin.SetMode(gin.ReleaseMode)\n\t// 全局中间件配置\n\thttpEngine := gin.New()\n\thttpEngine.Use(gin.Recovery())                                     // 异常处置中间件\n\thttpEngine.Use(middleware.TimeoutMiddleware(5 * 60 * time.Second)) // 请求超时中间件\n\thttpEngine.Use(middleware.GinLoggerHandler())                      // 日志中间件\n\t// 注册路由\n\trouter.RegisterRouter(httpEngine)\n\n\t// 启动服务\n\tserver := &http.Server{{\n\t\tAddr:    pkg.SvcActuatorUrl,\n\t\tHandler: httpEngine,\n\t}}\n\tif err := server.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {{\n\t\tlogger.Error(\"http server startup err: %v\", err)\n\t\treturn\n\t}}\n\tlogger.Info(\"http server startup success\")\n}}\n```\n<code>\n<explain>## 整体功能\n该 Go 代码的主要功能是初始化并启动一个 HTTP 服务器。具体步骤包括：\n1. 初始化日志系统。\n2. 初始化 Apex 连接器。\n3. 配置 Gin 框架的全局中间件。\n4. 注册路由。\n5. 启动 HTTP 服务器，并监听指定的地址和端口。\n\n## 使用到的函数/类方法的作用\n- `logger.InitInnerLogger`: 初始化日志系统。\n- `initApexConnector`: 初始化 Apex 连接器。\n- `gin.SetMode`: 设置 Gin 框架的运行模式。\n- `gin.New`: 创建一个新的 Gin 引擎实例。\n- `httpEngine.Use`: 注册中间件。\n- `router.RegisterRouter`: 注册路由。\n- `http.Server`: 创建一个 HTTP 服务器。\n- `server.ListenAndServe`: 启动 HTTP 服务器。\n- `logger.Error`: 记录错误日志。\n- `logger.Info`: 记录信息日志。\n\n## 逐行解释功能\n```go\nimport (\n\t\"GPUTASKD/pkg/logger\" // 引入日志模块\n\t\"GPUTASKD/task_actuator/middleware\" // 引入中间件模块\n\t\"GPUTASKD/task_actuator/internal/router\" // 引入路由模块\n\t\"GPUTASKD/pkg\" // 引入包模块\n\t\"errors\" // 引入错误处理模块\n\t\"fmt\" // 引入格式化输入输出模块\n\t\"github.com/gin-gonic/gin\" // 引入 Gin 框架\n\t\"net/http\" // 引入 HTTP 模块\n\t\"time\" // 引入时间模块\n)\n\nfunc main() {{\n\t// 初始化日志\n\tif err := logger.InitInnerLogger(\"dspm_task_gpu\", \"task_actuator\"); err != nil {{\n\t\tfmt.Printf(\"InitInnerLogger err: %v\", err) // 如果初始化日志失败，打印错误信息\n\t\treturn // 退出程序\n\t}}\n\tinitApexConnector() // 初始化 Apex 连接器\n\t// 初始化 HTTP 服务\n\tgin.SetMode(gin.ReleaseMode) // 设置 Gin 框架的运行模式为发布模式\n\t// 全局中间件配置\n\thttpEngine := gin.New() // 创建一个新的 Gin 引擎实例\n\thttpEngine.Use(gin.Recovery()) // 注册异常处置中间件，用于捕获并处理 panic\n\thttpEngine.Use(middleware.TimeoutMiddleware(5 * 60 * time.Second)) // 注册请求超时中间件，设置超时时间为 5 分钟\n\thttpEngine.Use(middleware.GinLoggerHandler()) // 注册日志中间件，记录请求日志\n\t// 注册路由\n\trouter.RegisterRouter(httpEngine) // 注册路由到 Gin 引擎\n\t// 启动服务\n\tserver := &http.Server{{\n\t\tAddr:    pkg.SvcActuatorUrl, // 设置服务器监听的地址和端口\n\t\tHandler: httpEngine, // 设置处理请求的 handler\n\t}}\n\tif err := server.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {{\n\t\tlogger.Error(\"http server startup err: %v\", err) // 如果启动失败，记录错误日志\n\t\treturn // 退出程序\n\t}}\n\tlogger.Info(\"http server startup success\") // 记录启动成功的日志\n}}\n```<explain>\n<code-block>"
+#############
+Output:
+("entity"{tuple_delimiter}"task_actuator/main:main"{tuple_delimiter}"function"{tuple_delimiter}"main is a function definition."){record_delimiter}
+("entity"{tuple_delimiter}"task_actuator/main:initApexConnector"{tuple_delimiter}"function"{tuple_delimiter}"initApexConnector is the called function."){record_delimiter}
+("entity"{tuple_delimiter}"GPUTASKD/task_actuator/middleware:TimeoutMiddleware"{tuple_delimiter}"function"{tuple_delimiter}"TimeoutMiddleware is the called function."){record_delimiter}
+("entity"{tuple_delimiter}"GPUTASKD/task_actuator/middleware:GinLoggerHandler"{tuple_delimiter}"function"{tuple_delimiter}"GinLoggerHandler is the called function."){record_delimiter}
+("entity"{tuple_delimiter}"GPUTASKD/task_actuator/internal/router:RegisterRouter"{tuple_delimiter}"function"{tuple_delimiter}"RegisterRouter is the called function."){record_delimiter}
+("relationship"{tuple_delimiter}"task_actuator/main:main"{tuple_delimiter}"task_actuator/main:initApexConnector"{tuple_delimiter}"main calls initApexConnector."{tuple_delimiter}"main, initApexConnector, task_actuator/main, GPUTASKD/task_actuator/middleware"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"task_actuator/main:main"{tuple_delimiter}"GPUTASKD/task_actuator/middleware:TimeoutMiddleware"{tuple_delimiter}"main calls TimeoutMiddleware."{tuple_delimiter}"main, TimeoutMiddleware, task_actuator/main, GPUTASKD/task_actuator/middleware"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"task_actuator/main:main"{tuple_delimiter}"GPUTASKD/task_actuator/middleware:GinLoggerHandler"{tuple_delimiter}"main calls GinLoggerHandler."{tuple_delimiter}"main, GinLoggerHandler, task_actuator/main, GPUTASKD/task_actuator/middleware"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"task_actuator/main:main"{tuple_delimiter}"GPUTASKD/task_actuator/internal/router:RegisterRouter"{tuple_delimiter}"main calls RegisterRouter."{tuple_delimiter}"main, RegisterRouter, task_actuator/main, GPUTASKD/task_actuator/internal/router"{tuple_delimiter}9){record_delimiter}
+("content_keywords"{tuple_delimiter}"main, initApexConnector, TimeoutMiddleware, GinLoggerHandler, RegisterRouter, task_actuator/main, GPUTASKD/task_actuator/middleware, GPUTASKD/task_actuator/internal/router"){completion_delimiter}
+#############################
+-Real Data-
+######################
+Entity_types: {entity_types}
+Text: {input_text}
 ######################
 Output:"""
 
